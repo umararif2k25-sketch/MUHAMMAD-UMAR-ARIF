@@ -1,0 +1,78 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int marks;
+    cin >> marks;
+
+    if (marks >= 80) {
+        cout << "A";
+    }
+
+    return 0;
+}
+#include <iostream>
+using namespace std;
+
+int main() {
+    int marks;
+    cin >> marks;
+
+    if (marks >= 80) {
+        cout << "A";
+    } else {
+        cout << "Below A";
+    }
+
+    return 0;
+}
+#include <iostream>
+using namespace std;
+
+int main() {
+    int marks;
+    cin >> marks;
+
+    if (marks >= 80) {
+        cout << "A";
+    } else if (marks < 80 && marks >= 0) {
+        cout << "Below A";
+    } else {
+        cout << "Invalid Marks";
+    }
+
+    return 0;
+}
+#include <iostream>
+using namespace std;
+
+int main() {
+    int marks;
+    cin >> marks;
+
+    switch (marks >= 80) {
+        case 1:
+            cout << "A";
+            break;
+        case 0:
+            cout << "Below A";
+            break;
+    }
+
+    return 0;
+}
+#include <iostream>
+using namespace std;
+
+int main() {
+    int marks;
+    cin >> marks;
+
+    if (marks <= 100) {
+        if (marks >= 80) {
+            cout << "A";
+        }
+    }
+
+    return 0;
+}
