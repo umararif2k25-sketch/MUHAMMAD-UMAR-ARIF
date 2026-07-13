@@ -1,0 +1,87 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    if (num % 2 == 0) {
+        cout << "Even";
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    if (num % 2 == 0) {
+        cout << "Even";
+    } else {
+        cout << "Odd";
+    }
+
+    return 0;
+}
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    int remainder = num % 2;
+
+    if (remainder == 0) {
+        cout << "Even";
+    } else if (remainder == 1 || remainder == -1) {
+        cout << "Odd";
+    }
+
+    return 0;
+}
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    // Evaluates to 0 for even, 1 or -1 for odd numbers
+    switch (num % 2) {
+        case 0:
+            cout << "Even";
+            break;
+        case 1:
+        case -1:
+            cout << "Odd";
+            break;
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    // Outer check checks for non-zero scaling, inner checks exact equivalence
+    if (num % 2 >= -1) {
+        if (num % 2 == 0) {
+            cout << "Even";
+        }
+    }
+
+    return 0;
+}
