@@ -1,0 +1,87 @@
+  IF :
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    if (num > 0) {
+        cout << "Positive";
+    }
+
+    return 0;
+}
+    IF ELSE :
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    if (num > 0) {
+        cout << "Positive";
+    } else {
+        cout << "Not Positive";
+    }
+
+    return 0;
+}
+
+IF ELSE IF :
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    if (num > 0) {
+        cout << "Positive";
+    } else if (num < 0) {
+        cout << "Negative";
+    } else {
+        cout << "Zero";
+    }
+
+    return 0;
+}
+
+SWITH :
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    // Relational expressions evaluate to 1 (true) or 0 (false)
+    switch (num > 0) {
+        case 1:
+            cout << "Positive";
+            break;
+        case 0:
+            cout << "Not Positive";
+            break;
+    }
+
+    return 0;
+} 
+
+NESTED IF :
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    if (num != 0) {
+        if (num > 0) {
+            cout << "Positive";
+        }
+    }
+
+    return 0;
+}
