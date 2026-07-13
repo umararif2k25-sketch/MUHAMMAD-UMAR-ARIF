@@ -1,0 +1,80 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int year;
+    cin >> year;
+
+    if (year % 4 == 0) {
+        cout << "Leap Year";
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int year;
+    cin >> year;
+
+    if (year % 4 == 0) {
+        cout << "Leap Year";
+    } else {
+        cout << "Not Leap Year";
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int year;
+    cin >> year;
+
+    if (year % 4 == 0) {
+        cout << "Leap Year";
+    } else if (year % 4 != 0) {
+        cout << "Not Leap Year";
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int year;
+    cin >> year;
+
+    switch (year % 4 == 0) {
+        case 1:
+            cout << "Leap Year";
+            break;
+        case 0:
+            cout << "Not Leap Year";
+            break;
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int year;
+    cin >> year;
+
+    if (year > 0) {
+        if (year % 4 == 0) {
+            cout << "Leap Year";
+        }
+    }
+
+    return 0;
+}
