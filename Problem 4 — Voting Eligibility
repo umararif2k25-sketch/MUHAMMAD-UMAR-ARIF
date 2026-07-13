@@ -1,0 +1,83 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cin >> age;
+
+    if (age >= 18) {
+        cout << "Eligible";
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cin >> age;
+
+    if (age >= 18) {
+        cout << "Eligible";
+    } else {
+        cout << "Not Eligible";
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cin >> age;
+
+    if (age >= 18) {
+        cout << "Eligible";
+    } else if (age >= 0 && age < 18) {
+        cout << "Not Eligible";
+    } else {
+        cout << "Invalid Age";
+    }
+
+    return 0;
+}
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cin >> age;
+
+    switch (age >= 18) {
+        case 1:
+            cout << "Eligible";
+            break;
+        case 0:
+            cout << "Not Eligible";
+            break;
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cin >> age;
+
+    if (age >= 0) {
+        if (age >= 18) {
+            cout << "Eligible";
+        }
+    }
+
+    return 0;
+}
