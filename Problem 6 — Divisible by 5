@@ -1,0 +1,81 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    if (num % 5 == 0) {
+        cout << "Divisible";
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    if (num % 5 == 0) {
+        cout << "Divisible";
+    } else {
+        cout << "Not Divisible";
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    if (num % 5 == 0) {
+        cout << "Divisible";
+    } else if (num % 5 != 0) {
+        cout << "Not Divisible";
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    switch (num % 5 == 0) {
+        case 1:
+            cout << "Divisible";
+            break;
+        case 0
+
+            cout << "Not Divisible";
+            break;
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cin >> num;
+
+    if (num >= 0 || num < 0) {
+        if (num % 5 == 0) {
+            cout << "Divisible";
+        }
+    }
+
+    return 0;
+}
