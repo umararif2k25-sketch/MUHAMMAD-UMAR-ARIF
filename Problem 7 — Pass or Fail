@@ -1,0 +1,82 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int marks;
+    cin >> marks;
+
+    if (marks >= 50) {
+        cout << "Pass";
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int marks;
+    cin >> marks;
+
+    if (marks >= 50) {
+        cout << "Pass";
+    } else {
+        cout << "Fail";
+    }
+
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int marks;
+    cin >> marks;
+
+    if (marks >= 50) {
+        cout << "Pass";
+    } else if (marks < 50 && marks >= 0) {
+        cout << "Fail";
+    } else {
+        cout << "Invalid Marks";
+    }
+
+    return 0;
+}
+#include <iostream>
+using namespace std;
+
+int main() {
+    int marks;
+    cin >> marks;
+
+    switch (marks >= 50) {
+        case 1:
+            cout << "Pass";
+            break;
+        case 0:
+            cout << "Fail";
+            break;
+    }
+
+    return 0;
+}
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int marks;
+    cin >> marks;
+
+    if (marks <= 100) {
+        if (marks >= 50) {
+            cout << "Pass";
+        }
+    }
+
+    return 0;
+}
